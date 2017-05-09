@@ -17,7 +17,7 @@
             MsgBox("Solo se permite 1 punto")
             Exit Sub
         End If
-
+        'prueba
         If ultima = "@" And pos = 64 Then
             e.Handled = True
             MsgBox("No puede ser mas largo el Nombre de usuario")
